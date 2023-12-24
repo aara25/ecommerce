@@ -5,3 +5,24 @@
 .border-radius-9{
   border-radius: 9px;
 }
+/* Add this to your styles.css or App.css file */
+.added-to-cart {
+  transition: transform 0.5s ease-in-out;
+  transform: scale(1.1); /* You can adjust the scale value for your preferred animation */
+}
+
+.added-message {
+  color: green;
+  font-weight: bold;
+  margin-top: 5px;
+  animation: fadeInAndOut 2s ease-out;
+}
+
+@keyframes fadeInAndOut {
+  0%, 100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
